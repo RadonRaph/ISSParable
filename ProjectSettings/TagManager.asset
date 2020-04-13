@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - Grip
+  - UsedGripRight
+  - UsedGripLeft
+  - UsedGripBoth
   - 
   - 
   - 
