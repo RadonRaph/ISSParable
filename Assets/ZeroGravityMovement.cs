@@ -235,6 +235,16 @@ public class ZeroGravityMovement : MonoBehaviour
             z -= 1;
         }
 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            y += 1;
+        }
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            y -= 1;
+        }
+
         return new Vector3(z, y, x);
 
     }
